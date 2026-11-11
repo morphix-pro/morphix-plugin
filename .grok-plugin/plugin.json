@@ -12,22 +12,12 @@
   "license": "MIT",
   "logo": "assets/logo.svg",
   "keywords": [
-    "ai image generator",
-    "ai video generator",
-    "text to image",
-    "image to video",
-    "text to speech",
-    "image upscaler",
-    "video upscaler",
-    "mcp"
+    "morphix",
+    "morphix mcp",
+    "morphix plugin",
+    "morphix ai"
   ],
   "skills": [
     "./skills/morphix"
-  ],
-  "mcpServers": {
-    "morphix": {
-      "type": "http",
-      "url": "https://mcp.morphix.pro/mcp"
-    }
-  }
+  ]
 }

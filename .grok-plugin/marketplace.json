@@ -16,17 +16,14 @@
       },
       "homepage": "https://morphix.pro/mcp",
       "keywords": [
-        "ai image generator",
-        "ai video generator",
-        "text to image",
-        "image to video",
-        "text to speech",
-        "image upscaler",
-        "video upscaler",
-        "mcp"
+        "morphix",
+        "morphix mcp",
+        "morphix plugin",
+        "morphix ai"
       ],
       "domains": [
-        "morphix.pro"
+        "morphix.pro",
+        "mcp.morphix.pro"
       ]
     }
   ]

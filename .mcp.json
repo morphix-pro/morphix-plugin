@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "morphix": {
+      "type": "http",
+      "url": "https://mcp.morphix.pro/mcp"
+    }
+  }
+}
