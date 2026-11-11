@@ -1,0 +1,33 @@
+{
+  "name": "morphix",
+  "displayName": "Morphix",
+  "version": "1.0.0",
+  "description": "Generate and upscale AI images, video and audio with Nano Banana Pro, Seedream, Flux, GPT Image, Veo 3.1, Kling, Seedance and more, right from your agent.",
+  "author": {
+    "name": "Morphix",
+    "email": "support@morphix.pro"
+  },
+  "homepage": "https://morphix.pro/mcp",
+  "repository": "https://github.com/morphix-pro/cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "ai image generator",
+    "ai video generator",
+    "text to image",
+    "image to video",
+    "text to speech",
+    "image upscaler",
+    "video upscaler",
+    "mcp"
+  ],
+  "skills": [
+    "./skills/morphix"
+  ],
+  "mcpServers": {
+    "morphix": {
+      "type": "http",
+      "url": "https://mcp.morphix.pro/mcp"
+    }
+  }
+}

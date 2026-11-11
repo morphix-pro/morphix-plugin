@@ -14,18 +14,19 @@ Morphix runs image, video and audio models behind one account. Every generation 
 
 ## Reference files
 
-Inputs such as reference images must live in the user's Morphix library.
+Inputs such as reference images must already be in the user's Morphix library.
 
-- Reuse what is already there with `get_assets`.
-- A file you can read (for example one attached in Slack or saved on your computer): call `get_upload_url`, send the bytes to that URL with an HTTP PUT, then call `confirm_upload`. Use `upload_asset` when the file is already at a public URL.
-- `show_upload_widget` only works in chat clients that render widgets. Skip it when you run headless.
+- Find them with `get_assets`, which lists uploads and past generation outputs, newest first. Pass the asset ids to the generate and upscale tools.
+- When the user wants to add their own file, call `show_upload_widget`. It returns the new asset id once the upload finishes.
+- If your client cannot render the widget, ask the user to upload the file in the Morphix app at https://morphix.pro, then find it with `get_assets`.
+- `get_upload_url`, `confirm_upload` and `upload_asset` are internal to the upload widget. Do not call them directly.
 
 ## Generating
 
 - Images: `generate_image`. Video: `generate_video`. Speech: `generate_audio`.
 - Bigger or sharper only: `upscale_image` or `upscale_video`.
-- Generations run asynchronously. Check progress with `get_generations` and share the output URL once it is ready.
-- Every result is saved to the user's Morphix library, so `get_generations` also finds past work.
+- Generations run asynchronously. Check progress with `get_generations` using the generation id, and share the output URL once it is ready.
+- Every result is saved to the user's Morphix library, so `get_assets` also finds past work.
 
 ## Good habits
 

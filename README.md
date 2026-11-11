@@ -7,7 +7,7 @@ Morphix runs Nano Banana Pro, Seedream, Flux, GPT Image, Veo 3.1, Kling, Seedanc
 ## What it adds
 
 - **MCP server** `morphix` at `https://mcp.morphix.pro/mcp` (streamable HTTP)
-- **Skill** `morphix` that teaches the agent how to pick a model, handle reference files and follow a generation to the end
+- **Skill** `morphix` that teaches the agent how to pick a model, use reference files from your library and follow a generation to the end
 
 ## Tools
 
@@ -21,7 +21,7 @@ Morphix runs Nano Banana Pro, Seedream, Flux, GPT Image, Veo 3.1, Kling, Seedanc
 | `upscale_image`, `upscale_video` | Upscale up to 4K |
 | `get_generations` | Status of running generations and past results |
 | `get_assets` | Files in your library |
-| `get_upload_url`, `confirm_upload`, `upload_asset`, `show_upload_widget` | Add reference files to your library |
+| `show_upload_widget` | Add your own reference files to your library |
 
 ## Sign in
 
