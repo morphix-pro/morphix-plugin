@@ -1,0 +1,11 @@
+{
+  "name": "morphix",
+  "version": "1.0.0",
+  "description": "Generate and upscale AI images, video and audio with Nano Banana Pro, Seedream, Flux, GPT Image, Veo 3.1, Kling, Seedance and more, right from your agent.",
+  "mcpServers": {
+    "morphix": {
+      "httpUrl": "https://mcp.morphix.pro/mcp",
+      "description": "Official Morphix MCP server (hosted, streamable HTTP). Gemini CLI opens a browser to sign in to Morphix. No API key or local install needed."
+    }
+  }
+}

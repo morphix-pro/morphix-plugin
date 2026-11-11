@@ -8,7 +8,7 @@
     "email": "support@morphix.pro"
   },
   "homepage": "https://morphix.pro/mcp",
-  "repository": "https://github.com/morphix-pro/cursor-plugin",
+  "repository": "https://github.com/morphix-pro/morphix-plugin",
   "license": "MIT",
   "logo": "assets/logo.svg",
   "keywords": [

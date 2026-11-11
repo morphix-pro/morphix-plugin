@@ -27,6 +27,12 @@ Morphix runs Nano Banana Pro, Seedream, Flux, GPT Image, Veo 3.1, Kling, Seedanc
 
 The first time the agent calls a tool you are asked to sign in with your Morphix account through OAuth. There is no API key to create or store. A free plan is available at [morphix.pro/pricing](https://morphix.pro/pricing).
 
+## Gemini CLI
+
+```bash
+gemini extensions install https://github.com/morphix-pro/morphix-plugin
+```
+
 ## Other agents
 
 The same server works in Claude, ChatGPT, Gemini CLI and any client that supports remote MCP. See [morphix.pro/mcp](https://morphix.pro/mcp).
