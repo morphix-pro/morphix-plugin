@@ -2,7 +2,7 @@
   "name": "morphix",
   "displayName": "Morphix",
   "version": "1.0.0",
-  "description": "Generate and upscale AI images, video and audio with Nano Banana Pro, Seedream, Flux, GPT Image, Veo 3.1, Kling, Seedance and more, right from your agent.",
+  "description": "Generate AI images, videos and audio, and upscale images and videos up to 4K, right from your agent.",
   "author": {
     "name": "Morphix",
     "email": "support@morphix.pro"

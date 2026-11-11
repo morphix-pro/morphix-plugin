@@ -1,8 +1,8 @@
 # Morphix plugin
 
-Generate and upscale AI images, video and audio from your agent with [Morphix](https://morphix.pro).
+Generate AI images, videos and audio, and upscale images and videos up to 4K, right from your agent with [Morphix](https://morphix.pro).
 
-Morphix runs Nano Banana Pro, Seedream, Flux, GPT Image, Veo 3.1, Kling, Seedance, Topaz, ElevenLabs voices and more behind one account and one credit balance.
+One Morphix account and one credit balance cover every image, video and audio model.
 
 ## What it adds
 
