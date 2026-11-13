@@ -1,0 +1,19 @@
+{
+  "name": "morphix",
+  "version": "1.0.0",
+  "description": "Generate AI images, videos and audio, and upscale images and videos up to 4K, right from your agent.",
+  "author": {
+    "name": "Morphix",
+    "email": "support@morphix.pro"
+  },
+  "homepage": "https://morphix.pro/mcp",
+  "repository": "https://github.com/morphix-pro/morphix-plugin",
+  "license": "MIT",
+  "keywords": [
+    "morphix",
+    "morphix mcp",
+    "morphix plugin",
+    "morphix ai"
+  ],
+  "privacyPolicyUrl": "https://morphix.pro/legal/privacy-policy"
+}

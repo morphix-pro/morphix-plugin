@@ -1,0 +1,30 @@
+{
+  "name": "morphix",
+  "owner": {
+    "name": "Morphix",
+    "email": "support@morphix.pro"
+  },
+  "metadata": {
+    "description": "Generate AI images, videos and audio, and upscale images and videos up to 4K, right from your agent."
+  },
+  "plugins": [
+    {
+      "name": "morphix",
+      "source": "./",
+      "description": "Generate AI images, videos and audio, and upscale images and videos up to 4K, right from your agent.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Morphix",
+        "email": "support@morphix.pro"
+      },
+      "homepage": "https://morphix.pro/mcp",
+      "category": "design",
+      "keywords": [
+        "morphix",
+        "morphix mcp",
+        "morphix plugin",
+        "morphix ai"
+      ]
+    }
+  ]
+}

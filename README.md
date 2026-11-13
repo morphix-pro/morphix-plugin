@@ -27,6 +27,12 @@ One Morphix account and one credit balance cover every image, video and audio mo
 
 The first time the agent calls a tool you are asked to sign in with your Morphix account through OAuth. There is no API key to create or store. A free plan is available at [morphix.pro/pricing](https://morphix.pro/pricing).
 
+## Claude Code
+
+```bash
+/plugin install morphix --marketplace morphix-pro/morphix-plugin
+```
+
 ## Gemini CLI
 
 ```bash
